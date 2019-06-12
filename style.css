@@ -4,11 +4,13 @@ body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
 }
+
 .container{
     width:80%;
     margin:auto;
    overflow: hidden;
 }
+
 Header{
     background-color:#35424a;
     color:#fff;
@@ -17,4 +19,11 @@ Header{
 }
 Header span{
     color:#C5D86D;
+}
+
+Header #branding{
+    float: left;
+}
+header nav{
+    float: right;
 }
