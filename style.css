@@ -62,3 +62,27 @@ Header ul li{
 #showcase p{
     font-size: 20px;
 }
+#newsletter{
+    background-color: #35424a;
+    color:#fff;
+    padding:15px;
+}
+#newsletter h1{
+    float:left;
+}
+#newsletter form{
+    float: right;
+    padding-top:20px;
+}
+#newsletter button{
+    background-color: #C5D86D;
+    border: none;
+    height: 38px;
+    padding: 0 20px 0 20px;
+    color:#fff;
+}
+#newsletter input[type=email]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
