@@ -20,10 +20,14 @@ Header{
 Header span{
     color:#C5D86D;
 }
-
 Header #branding{
     float: left;
 }
 header nav{
     float: right;
+}
+Header a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
 }
