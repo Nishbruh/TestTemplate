@@ -17,6 +17,10 @@ body{
     background:#35424a;
     margin: 10px 0 10px 0;
 }
+ul{
+    margin:0;
+    padding:0;
+}
 .button_1{
     background-color: #C5D86D;
     border: none;
@@ -50,10 +54,7 @@ Header a:hover{
     color:#ccc;
     font-weight: bold;
 }
-Header ul{
-    margin:0;
-    padding:0;
-}
+
 Header ul li{
     display:inline;
     padding:0 20px 0 20px;
@@ -112,11 +113,26 @@ Header ul li{
     margin-top:10px;
     width:30%;
 }
+/*Quote*/
+#main aside#sidebar .quote input, textarea{
+    width:90%;
+    padding:5px;
+}
 #main #main-col{
     float: left;
     width:65%;
 }
+/*Services*/
 
+#services li{
+    list-style: none;
+    border: solid 1px #ccc;
+    background: #e6e6e6;
+    padding:20px;
+    margin-bottom:5px;
+}
+
+#sevices 
 /*Footer*/
 footer{
     background-color:#C5D86D;
