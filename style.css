@@ -33,6 +33,7 @@ Header{
     color:#fff;
     padding-top:30px;
     border-bottom:#C5D86D 5px solid;
+    min-height: 70px;
 }
 Header #branding .highlight, nav .current a{
     color:#C5D86D;
@@ -64,7 +65,7 @@ Header ul li{
 #showcase{
     min-height: 400px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/webdesign.jpg) no-repeat 0px -100px ;
-    background-size: cover;
+    background-position: center ;
     text-align:center;
     color:#fff; 
 }
@@ -132,7 +133,6 @@ Header ul li{
     margin-bottom:5px;
 }
 
-#sevices 
 /*Footer*/
 footer{
     background-color:#C5D86D;
@@ -142,4 +142,38 @@ footer{
 }
 footer p{
     text-align:center;
+}
+/*Responsive design*/
+@media(max-width:760px){
+    Header #branding,
+    Header nav,
+    Header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    #main article#main-col,
+    #main aside#sidebar
+    {
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+
+    Header{
+        padding-bottom:20px;
+    }
+
+    #showcase h1{
+        margin-top:40px;
+    }
+    #newsletter form button, .quote button{
+        width:100%;
+        display:block;
+    }
+    #newsletter form input[type="email"],.quote input,.quote textarea{
+        width:100%;
+      
+        margin-bottom:10px;
+    }
+    
 }
