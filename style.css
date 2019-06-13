@@ -17,7 +17,13 @@ body{
     background:#35424a;
     margin: 10px 0 10px 0;
 }
-
+.button_1{
+    background-color: #C5D86D;
+    border: none;
+    height: 38px;
+    padding: 0 20px 0 20px;
+    color:#fff;
+}
 Header{
     background-color:#35424a;
     color:#fff;
@@ -81,13 +87,7 @@ Header ul li{
     float: right;
     padding-top:20px;
 }
-#newsletter button{
-    background-color: #C5D86D;
-    border: none;
-    height: 38px;
-    padding: 0 20px 0 20px;
-    color:#fff;
-}
+
 #newsletter input[type=email]{
     padding:4px;
     height:25px;
